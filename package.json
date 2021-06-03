@@ -1,5 +1,5 @@
 {
-    "name": "Eleventy Blog",
+    "name": "Eleventy-Blog",
     "version": "0.2.2",
     "description": "A starter project showing how to build a blog with the Eleventy static site generator using JavaScript templates.",
     "main": "index.js",
