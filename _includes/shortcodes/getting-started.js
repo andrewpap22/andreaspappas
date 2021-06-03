@@ -121,10 +121,18 @@ export default function(eleventyConfig) {
               style="border:var(--border);padding:var(--base-unit);">
                 
               <output></output>
+              <div style="margin-top 10px;">
+                <p>If you find this page and it's content usefull you could consider helping it "grow" even more by using the button below! 🔽 <p>
+                 <p> I deeply appreciate everyone's valuable help! 🙏</p>
+                <script type="text/javascript"
+                src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button"
+                data-slug="anpappas" data-color="#355a50" data-emoji="" data-font="Lato"
+                data-text="Buy me a coffee?" data-outline-color="#ffffff" data-font-color="#ffffff"
+                data-coffee-color="#FFDD00"></script>
+              </div>
             </section>
         
             <script>
-                /* FALL OUT 3 TEMRINAL */
         
                 var bind = Function.prototype.bind,
                     $append = bind.call(Element.prototype.appendChild, document.querySelector("output")),
@@ -192,9 +200,6 @@ export default function(eleventyConfig) {
                     .then("Knowledge is the key into understanding everything. By acquiring & exchanging knowledge is how you built relationships and help each other understand the world that we live in, better and thus eliminate the fear of something non understandable and live joyfully! 🐱")
                     .wait(500)
                     .then("お時間をいただきありがとうございます! 🦁");
-        
-        
-                /* END OF FALL OUT 3 TERMINAL */
             </script>
         </body>
         
