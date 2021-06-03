@@ -1,12 +1,14 @@
 /**
  * @file Defines a filter to convert a file’s contents to a string
- * @author Reuben L. Lillie <reubenlillie@gmail.com>
+ * @author Andreas Pappas <andrewpap1997@gmail.com>
  */
 
 /*
  *Import Node.js native fs module for interacting with the file system
  */
-import { readFileSync } from 'fs'
+import {
+    readFileSync
+} from 'fs'
 
 /**
  * An Eleventy filter for stringifying a file
@@ -16,13 +18,13 @@ import { readFileSync } from 'fs'
  */
 export default eleventyConfig =>
 
-  /**
-   * Converts a file’s contents to a string
-   * @param {String} file The path of the file to convert
-   *                      (relative to the input directory)
-   * @return {String} The file’s contents
-   * @example `${this.fileToString('css/inline.css')}`
-   */
-  eleventyConfig.addFilter('fileToString', file =>
-    readFileSync(`${file}`).toString()
-  )
+    /**
+     * Converts a file’s contents to a string
+     * @param {String} file The path of the file to convert
+     *                      (relative to the input directory)
+     * @return {String} The file’s contents
+     * @example `${this.fileToString('css/inline.css')}`
+     */
+    eleventyConfig.addFilter('fileToString', file =>
+        readFileSync(`${file}`).toString()
+    )

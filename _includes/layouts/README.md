@@ -1,4 +1,4 @@
-# eleventy-dot-js-blog/\_includes/layouts
+# eleventy-Blog/\_includes/layouts
 
 In Eleventy, [layouts](https://www.11ty.dev/docs/layouts/) are reusable templates that can also be used to wrap other content.
 

@@ -1,6 +1,6 @@
 /**
  * @file Defines a filter to minify JavaScript inline
- * @author Reuben L. Lillie <reubenlillie@gmail.com>
+ * @author Andreas Pappas <andrewpap1997@gmail.com>
  */
 
 /*
@@ -17,25 +17,25 @@ import Terser from 'terser'
  */
 export default eleventyConfig =>
 
-  /**
-   * Minify JavaScript
-   * @param {String} script A JavaScript file’s contents
-   * @return {String} The minified script
-   * @example `${this.minifyJS($this.fileToString('/includes/assets/js/gratuitip.js'))}`
-   * See {@link https://www.11ty.dev/docs/quicktips/inline-js/ 11ty docs}
-   * @see {@link https://www.11ty.dev/docs/data-js/#example-exposing-environment-variables Environment variables in 11ty}
-   */
-  eleventyConfig.addFilter('minifyJS', script => {
-    // Only minify scripts for production
-    if(process.env.ELEVENTY_ENV === 'production') {
-      var minified = Terser.minify(script)
-      if(minified.error) {
-        console.log('Terser error: ', minified.error)
-        return script
-      }
+    /**
+     * Minify JavaScript
+     * @param {String} script A JavaScript file’s contents
+     * @return {String} The minified script
+     * @example `${this.minifyJS($this.fileToString('/includes/assets/js/gratuitip.js'))}`
+     * See {@link https://www.11ty.dev/docs/quicktips/inline-js/ 11ty docs}
+     * @see {@link https://www.11ty.dev/docs/data-js/#example-exposing-environment-variables Environment variables in 11ty}
+     */
+    eleventyConfig.addFilter('minifyJS', script => {
+        // Only minify scripts for production
+        if (process.env.ELEVENTY_ENV === 'production') {
+            var minified = Terser.minify(script)
+            if (minified.error) {
+                console.log('Terser error: ', minified.error)
+                return script
+            }
 
-      return minified.script
-    }
-    
-    return script
-  })
+            return minified.script
+        }
+
+        return script
+    })

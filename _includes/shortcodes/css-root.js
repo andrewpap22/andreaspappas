@@ -1,6 +1,6 @@
 /**
  * @file Defines a shortcode for inserting variable data into the CSS `:root`
- * @author Reuben L. Lillie <reubenlillie@gmail.com>
+ * @author Andreas Pappas <andrewpap1997@gmail.com>
  * @see {@link https://www.11ty.dev/docs/languages/javascript/#javascript-template-functions JavaScript template functions in 11ty}
  */
 
@@ -11,17 +11,17 @@
  */
 export default eleventyConfig =>
 
-  /**
-   * CSS `:root` custom properties
-   * @method
-   * @name cssRoot
-   * @param {Object} data 11ty’s data object
-   * @return {String} The rendered shortcode
-   * @example `${this.cssRoot(data)}`
-   * @see {@link https://www.11ty.dev/docs/data/ Using data in 11ty}
-   */
-  eleventyConfig.addShortcode('cssRoot', data =>
-    `:root {
+    /**
+     * CSS `:root` custom properties
+     * @method
+     * @name cssRoot
+     * @param {Object} data 11ty’s data object
+     * @return {String} The rendered shortcode
+     * @example `${this.cssRoot(data)}`
+     * @see {@link https://www.11ty.dev/docs/data/ Using data in 11ty}
+     */
+    eleventyConfig.addShortcode('cssRoot', data =>
+        `:root {
       /* Color Codes */
       --black: ${data.colors.grayscale[900].hex};
       --grayscale-100: ${data.colors.grayscale[100].hex};

@@ -1,6 +1,6 @@
 /**
  * @file Imports filters and configures them with 11ty (.eleventy.js)
- * @author Reuben L. Lillie <reubenlillie@gmail.com>
+ * @author Andreas Pappas <andrewpap1997@gmail.com>
  */
 
 // Import filters to include
@@ -15,12 +15,12 @@ import minifyJS from './minify-js.js'
  * @see {@link https://www.11ty.dev/docs/config/ Configuring 11ty}
  * @see {@link https://www.11ty.dev/docs/filters/ Filters in 11ty}
  */
-export default function (eleventyConfig) {
+export default function(eleventyConfig) {
 
-  // Function calls to filters to include
-  fileToString(eleventyConfig)
-  minifyCSS(eleventyConfig)
-  minifyJS(eleventyConfig)
+    // Function calls to filters to include
+    fileToString(eleventyConfig)
+    minifyCSS(eleventyConfig)
+    minifyJS(eleventyConfig)
 
-  return
+    return
 }

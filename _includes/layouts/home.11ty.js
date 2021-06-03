@@ -1,6 +1,6 @@
 /**
  * @file Defines the chained template for home page
- * @author Reuben L. Lillie <reubenlillie@gmail.com>
+ * @author Andreas Pappas <andrewpap1997@gmail.com>
  * @see {@link https://www.11ty.dev/docs/layouts/#layout-chaining Layout chaining in 11ty}
  */
 
@@ -9,7 +9,7 @@
  * @see {@link https://www.11ty.dev/docs/languages/javascript/#optional-data-method Optional `data` in JavaScript templates in 11ty}
  */
 export var data = {
-  layout: 'layouts/base'
+    layout: 'layouts/base'
 }
 
 /**
@@ -21,9 +21,9 @@ export var data = {
  * @see {@link https://www.11ty.dev/docs/pagination/ Pagination in 11ty}
  */
 export function render(data) {
-  var l10n = data.site[data.locale]
-  var reversed = [...data.collections.posts.slice(-2)].reverse()
-  return `<article>
+    var l10n = data.site[data.locale]
+    var reversed = [...data.collections.posts.slice(-2)].reverse()
+    return `<article>
     <!-- ⬇️  Delete between this line … -->
       ${this.gettingStarted(data)}
     <!-- ⬆️  … and this line -->

@@ -1,6 +1,6 @@
 /**
  * @file Defines the chained template for a basic page
- * @author Reuben L. Lillie <reubenlillie@gmail.com>
+ * @author Andreas Pappas <andrewpap1997@gmail.com>
  * @see {@link https://www.11ty.dev/docs/layouts/#layout-chaining Layout chaining in 11ty}
  */
 
@@ -9,7 +9,7 @@
  * @see {@link https://www.11ty.dev/docs/languages/javascript/#optional-data-method Optional `data` in JavaScript templates in 11ty}
  */
 export var data = {
-  layout: 'layouts/base'
+    layout: 'layouts/base'
 }
 
 /**
@@ -21,7 +21,7 @@ export var data = {
  * @see {@link https://www.11ty.dev/docs/shortcodes/ Shortcodes in 11ty}
  */
 export function render(data) {
-  return `<article>
+    return `<article>
     <header class="article-header">
       <h2>${data.title}</h2>
     </header>

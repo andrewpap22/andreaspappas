@@ -1,6 +1,6 @@
 /**
  * @file Contains global copyright data
- * @author Reuben L. Lillie <reubenlillie@gmail.com>
+ * @author Andreas Pappas <andrewpap1997@gmail.com>
  */
 
 // Edit the values for the properties in this file to fit your site.
@@ -16,12 +16,12 @@
  * @see {@link https://creativecommons.org/ Creative Commons}
  */
 export default {
-  // Use current year
-  year: new Date().getFullYear(),
-  holder: '<a href=\"https://twitter.com/reubenlillie\">Reuben L. Lillie</a>',
-  license: {
-    abbr: 'CC BY-SA',
-    name: 'Creative Commons Attribution-ShareAlike 4.0 International license',
-  },
-  url: 'https://creativecommons.org/licenses/by-sa/4.0/'
+    // Use current year
+    year: new Date().getFullYear(),
+    holder: '<a href=\"https://twitter.com/AndreasPappas22\">Andreas Pappas</a>',
+    license: {
+        abbr: 'MIT',
+        name: 'The MIT License, Open Source Initiative Approved License',
+    },
+    url: 'https://opensource.org/licenses/MIT'
 }

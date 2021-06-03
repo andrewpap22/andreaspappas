@@ -1,6 +1,6 @@
 /**
  * @file Contains global data about the site author
- * @author Reuben L. Lillie <reubenlillie@gmail.com>
+ * @author Andreas Pappas <andrewpap1997@gmail.com>
  */
 
 // Edit the values for the properties in this file to fit your site.
@@ -15,38 +15,37 @@
  * @see {@link https://www.11ty.dev/docs/data-global/ Global data files in 11ty}
  */
 export default {
-  name: {
-    fullName: 'Reuben L. Lillie',
-    givenName: 'Reuben',
-    surname: 'Lillie'
-  },
-  social: {
-    // Add or remove accounts for social media platforms
-    accounts: [
-      {
-        name: 'GitHub',
-        url: 'https://github.com/reubenlillie/'
-      },
-      {
-        name: 'GitLab',
-        url: 'https://gitlab.com/reubenlillie/'
-      },
-      {
-        name: 'Instagram',
-        url: 'https://www.instagram.com/reuben.lillie/'
-      },
-      {
-        name: 'LinkedIn',
-        url: 'https://linkedin.com/in/reubenlillie/'
-      },
-      {
-        name: 'Messenger',
-        url: 'https://m.me/reubenlillie/'
-      },
-      {
-        name: 'Twitter',
-        url: 'https://twitter.com/reubenlillie/'
-      }
-    ]
-  }
+    name: {
+        fullName: 'Andreas Pappas',
+        givenName: 'Andreas',
+        surname: 'Pappas'
+    },
+    social: {
+        // Add or remove accounts for social media platforms
+        accounts: [{
+                name: 'GitHub',
+                url: 'https://github.com/andrewpap22'
+            },
+            {
+                name: 'GitLab',
+                url: 'https://gitlab.com/andrewpap22'
+            },
+            {
+                name: 'Instagram',
+                url: 'https://www.instagram.com/andrew.dpap/'
+            },
+            {
+                name: 'LinkedIn',
+                url: 'https://www.linkedin.com/in/andreaspappas22/'
+            },
+            {
+                name: 'Messenger',
+                url: 'https://m.me/Andreas.FFc'
+            },
+            {
+                name: 'Twitter',
+                url: 'https://twitter.com/AndreasPappas22'
+            }
+        ]
+    }
 }

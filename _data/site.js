@@ -1,6 +1,6 @@
 /**
  * @file Contains global data for configuring the site
- * @author Reuben L. Lillie <reubenlillie@gmail.com>
+ * @author Andreas Pappas <andrewpap1997@gmail.com>
  */
 
 // Edit the values for the properties in this file to fit your site.
@@ -27,12 +27,12 @@ export default {
         title: `🦁.Andreas's Blog`,
         // The subtitle, slogan, or catchphrase for your site,
         // used in _includes/shortcodes/site-header
-        tagline: 'The vanilla JavaScript 🕚 Eleventy starter project of your dreams 💭',
+        tagline: 'A Blog about the family of 💻 UNIX operating systems, 🍦 JavaScript, 🥦 Nutrition, 🏋️ Weightlifting and overall 🍎 Well Being.',
         // Puncuation between a title and subtitle,
         // used in _includes/shortcodes/title-tag
         separator: ' 🍦 ',
         // The link text for skip-to-content lins, used by screen readers
-        skipToContent: 'Skip to main content',
+        skipToContent: '🪓 Skip to main content',
         // The link text to invite users to edit a page in the project Git repository
         // Link path stored in package.json
         editThisPage: '📝 Edit this page',
@@ -48,19 +48,19 @@ export default {
             // The aria-label for the first page within a pagination navigation
             firstLabel: '1',
             // The link text for the previous page within a pagination navigation
-            previous: 'Previous',
+            previous: '⬅️ Previous',
             // The link text for the next page within a pagination navigation
-            next: 'Next',
+            next: '➡️ Next',
             // The link text for the last page within a pagination navigation
-            last: 'End',
+            last: '🛑 End',
             // The aria-label for the last page within a pagination navigation
-            lastLabel: 'Last page'
+            lastLabel: '🖐️ Last page'
         },
         // Options for your archive of posts,
         // used in _includes/layout/archive.11ty.js
         postsArchive: {
             // Heading for your most recent posts, used on home page
-            headline: 'Latest posts',
+            headline: '❗ Latest posts',
             // Invite the user to visit your archive of posts, used on home page
             prompt: '… peruse your blog archives 👀',
             // The landing page for your archive of posts

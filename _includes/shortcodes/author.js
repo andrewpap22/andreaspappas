@@ -1,6 +1,6 @@
 /**
  * @file Defines a shortcode for displaying information about an author
- * @author Reuben L. Lillie <reubenlillie@gmail.com>
+ * @author Andreas Pappas <andrewpap1997@gmail.com>
  * @see {@link https://www.11ty.dev/docs/languages/javascript/#javascript-template-functions JavaScript template functions in 11ty}
  */
 
@@ -11,15 +11,15 @@
  */
 export default eleventyConfig =>
 
-  /**
-   * Content author markup
-   * @method
-   * @name author
-   * @param {Object} 11ty’s data object
-   * @return {String} The rendered shortcode
-   * @example `${this.author(data)}`
-   * @see {@link https://www.11ty.dev/docs/data/ Using data in 11ty}
-   */
-  eleventyConfig.addShortcode('author', data =>
-    `<span id="author_name">${data.author.name.fullName}</span>`
-  )
+    /**
+     * Content author markup
+     * @method
+     * @name author
+     * @param {Object} 11ty’s data object
+     * @return {String} The rendered shortcode
+     * @example `${this.author(data)}`
+     * @see {@link https://www.11ty.dev/docs/data/ Using data in 11ty}
+     */
+    eleventyConfig.addShortcode('author', data =>
+        `<span id="author_name">${data.author.name.fullName}</span>`
+    )

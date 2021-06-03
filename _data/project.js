@@ -1,6 +1,6 @@
 /**
  * @file Exposes environment variables to templates
- * @author Reuben L. Lillie <reubenlillie@gmail.com>
+ * @author Andreas Pappas <andrewpap1997@gmail.com>
  */
 
 /**
@@ -9,5 +9,5 @@
  * @see {@link https://www.11ty.dev/docs/data-js/#example-exposing-environment-variables Environment variables in 11ty}
  */
 export default {
-  environment: process.env.ELEVENTY_ENV
+    environment: process.env.ELEVENTY_ENV
 }
