@@ -1,6 +1,6 @@
 ---
-title: ℹ️  About 🍦.11ty.js
-navTitle: ℹ️  About
+title: 📖 About 🍦.11ty.js
+navTitle: 📖 About
 tags: nav
 weight: 2
 ---

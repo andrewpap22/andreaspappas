@@ -1,6 +1,6 @@
 /**
  * @file Imports shortcodes and configures them with 11ty (.eleventy.js)
- * @author Reuben L. Lillie <reubenlillie@gmail.com>
+ * @author Andreas Pappas <andrewpap1997@gmail.com>
  */
 
 // Import shortcodes to include
@@ -32,29 +32,29 @@ import titleTag from './title-tag.js'
  * @see {@link https://www.11ty.dev/docs/config/ Configuring 11ty}
  * @see {@link https://www.11ty.dev/docs/shortcodes/ Shortcodes in 11ty}
  */
-export default function (eleventyConfig) {
+export default function(eleventyConfig) {
 
-  // Function calls to shortcodes to include
-  archive(eleventyConfig)
-  author(eleventyConfig)
-  authorMeta(eleventyConfig)
-  colophon(eleventyConfig)
-  copyrightNotice(eleventyConfig)
-  cssRoot(eleventyConfig)
-  description(eleventyConfig)
-  editThisPage(eleventyConfig)
-  externalCSS(eleventyConfig)
-  favicon(eleventyConfig)
-  gettingStarted(eleventyConfig)
-  headTag(eleventyConfig)
-  inlineCSS(eleventyConfig)
-  nav(eleventyConfig)
-  pageDate(eleventyConfig)
-  paginationNav(eleventyConfig)
-  siteFooter(eleventyConfig)
-  siteHeader(eleventyConfig)
-  socialMeta(eleventyConfig)
-  titleTag(eleventyConfig)
-  
-  return
+    // Function calls to shortcodes to include
+    archive(eleventyConfig)
+    author(eleventyConfig)
+    authorMeta(eleventyConfig)
+    colophon(eleventyConfig)
+    copyrightNotice(eleventyConfig)
+    cssRoot(eleventyConfig)
+    description(eleventyConfig)
+    editThisPage(eleventyConfig)
+    externalCSS(eleventyConfig)
+    favicon(eleventyConfig)
+    gettingStarted(eleventyConfig)
+    headTag(eleventyConfig)
+    inlineCSS(eleventyConfig)
+    nav(eleventyConfig)
+    pageDate(eleventyConfig)
+    paginationNav(eleventyConfig)
+    siteFooter(eleventyConfig)
+    siteHeader(eleventyConfig)
+    socialMeta(eleventyConfig)
+    titleTag(eleventyConfig)
+
+    return
 }

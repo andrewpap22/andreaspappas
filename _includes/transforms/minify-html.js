@@ -1,6 +1,6 @@
 /**
  * @file Defines a filter to minify HTML template files
- * @author Reuben L. Lillie <reubenlillie@gmail.com>
+ * @author Andreas Pappas <andrewpap1997@gmail.com>
  */
 
 /*
@@ -17,24 +17,24 @@ import htmlmin from 'html-minifier'
  */
 export default eleventyConfig =>
 
-  /**
-   * Minifies HTML
-   * @param {String} content An HTML document
-   * @param {String} outputPath Where Eleventy should output the content
-   * @return {String} The minified content
-   * @see {@link https://www.11ty.dev/docs/data-js/#example-exposing-environment-variables Environment variables in 11ty}
-   */
-  eleventyConfig.addTransform('minifyHTML', (content, outputPath) => {
-    // Only minify HTML for production
-    if(process.env.ELEVENTY_ENV === 'production' &&
-      (outputPath !== false && outputPath.endsWith('.html'))) {
-      var minified = htmlmin.minify(content, {
-        useShortDoctype: true,
-        removeComments: true,
-        collapseWhitespace: true
-      })
-      return minified
-    }
+    /**
+     * Minifies HTML
+     * @param {String} content An HTML document
+     * @param {String} outputPath Where Eleventy should output the content
+     * @return {String} The minified content
+     * @see {@link https://www.11ty.dev/docs/data-js/#example-exposing-environment-variables Environment variables in 11ty}
+     */
+    eleventyConfig.addTransform('minifyHTML', (content, outputPath) => {
+        // Only minify HTML for production
+        if (process.env.ELEVENTY_ENV === 'production' &&
+            (outputPath !== false && outputPath.endsWith('.html'))) {
+            var minified = htmlmin.minify(content, {
+                useShortDoctype: true,
+                removeComments: true,
+                collapseWhitespace: true
+            })
+            return minified
+        }
 
-    return content
-  })
+        return content
+    })

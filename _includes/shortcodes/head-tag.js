@@ -1,6 +1,6 @@
 /**
  * @file Defines a shortcode for the `<head>` markup
- * @author Reuben L. Lillie <reubenlillie@gmail.com>
+ * @author Andreas Pappas <andrewpap1997@gmail.com>
  * @see {@link https://www.11ty.dev/docs/languages/javascript/#javascript-template-functions JavaScript template functions in 11ty}
  */
 
@@ -11,17 +11,17 @@
  */
 export default eleventyConfig =>
 
-  /**
-   * HTML `<head>` markup
-   * @method
-   * @name headTag
-   * @param {Object} data 11ty’s data object
-   * @return {String} The rendered shortcode
-   * @example `${this.headTag(data)}`
-   * @see {@link https://www.11ty.dev/docs/data/ Using data in 11ty}
-   */
-  eleventyConfig.addShortcode('headTag', function (data) {
-    return `<head>
+    /**
+     * HTML `<head>` markup
+     * @method
+     * @name headTag
+     * @param {Object} data 11ty’s data object
+     * @return {String} The rendered shortcode
+     * @example `${this.headTag(data)}`
+     * @see {@link https://www.11ty.dev/docs/data/ Using data in 11ty}
+     */
+    eleventyConfig.addShortcode('headTag', function(data) {
+        return `<head>
       ${this.titleTag(data)}
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -34,4 +34,4 @@ export default eleventyConfig =>
       </style>
       ${this.externalCSS(data)}
     </head>`
-  })
+    })

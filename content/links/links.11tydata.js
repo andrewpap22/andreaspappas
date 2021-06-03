@@ -1,6 +1,6 @@
 /**
  * @file Contains data common to all links, to reduce repetition
- * @author Reuben L. Lillie <reubenlillie@gmail.com>
+ * @author Andreas Pappas <andrewpap1997@gmail.com>
  */
 
 /**
@@ -11,10 +11,10 @@
  * @see {@link  https://www.11ty.dev/docs/permalinks/ Permalinks in 11ty}
  */
 export default {
-  // Setting permalink to false means Eleventy will not create an output file,
-  // but the content will still be available in collections and so forth
-  permalink: false,
-  tags: [
-    'links'
-  ]
+    // Setting permalink to false means Eleventy will not create an output file,
+    // but the content will still be available in collections and so forth
+    permalink: false,
+    tags: [
+        'links'
+    ]
 }

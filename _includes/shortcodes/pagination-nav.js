@@ -1,6 +1,6 @@
 /**
  * @file Defines a shortcode for pagination navigation
- * @author Reuben L. Lillie <reubenlillie@gmail.com>
+ * @author Andreas Pappas <andrewpap1997@gmail.com>
  * @see {@link https://www.11ty.dev/docs/languages/javascript/#javascript-template-functions JavaScript template functions in 11ty}
  */
 
@@ -11,21 +11,21 @@
  */
 export default eleventyConfig =>
 
-  /**
-   * The pagination navigation markup
-   * @method
-   * @name paginationNav
-   * @param {Object} data 11ty’s data object
-   * @return {String} The rendered pagination navigation
-   * @example `${this.paginationNav(data)}`
-   * @see {@link https://www.11ty.dev/docs/data/ Using data in 11ty}
-   * @see {@link https://www.11ty.dev/docs/pagination/nav/ Pagination navigation in 11ty}
-   */
-  eleventyConfig.addShortcode('paginationNav', (data) => {
-    var l10n = data.site[data.locale].pagination
+    /**
+     * The pagination navigation markup
+     * @method
+     * @name paginationNav
+     * @param {Object} data 11ty’s data object
+     * @return {String} The rendered pagination navigation
+     * @example `${this.paginationNav(data)}`
+     * @see {@link https://www.11ty.dev/docs/data/ Using data in 11ty}
+     * @see {@link https://www.11ty.dev/docs/pagination/nav/ Pagination navigation in 11ty}
+     */
+    eleventyConfig.addShortcode('paginationNav', (data) => {
+        var l10n = data.site[data.locale].pagination
 
-    // Use pagination navigation only when there’s more than one page
-    return `${data.pagination.pages.length > 1
+        // Use pagination navigation only when there’s more than one page
+        return `${data.pagination.pages.length > 1
       ? `<nav aria-label="${l10n.navLabel}">
         <!-- Show option to advance one page toward the beginning,
           when there are more than two total pages and
@@ -81,4 +81,4 @@ export default eleventyConfig =>
           }>${l10n.last}</a>
       </nav>`
     : '' }`
-  })
+    })
