@@ -22,14 +22,16 @@ export var data = {
  */
 export function render(data) {
     var l10n = data.site[data.locale]
-    var reversed = [...data.collections.posts.slice(-2)].reverse()
+    var reversed = [...data.collections.posts.slice(-5)].reverse()
     return `<article>
     <!-- ⬇️  Delete between this line … -->
       ${this.gettingStarted(data)}
     <!-- ⬆️  … and this line -->
     ${data.content}
     <h2>${l10n.postsArchive.headline}</h2>
-    ${this.archive(data, reversed)}
+    <section style="border:var(--border);padding:var(--base-unit);">
+      ${this.archive(data, reversed)}
+    </section>  
     <p><a href="${l10n.postsArchive.url}">${l10n.postsArchive.prompt}</a></p>
   </article>`
 }

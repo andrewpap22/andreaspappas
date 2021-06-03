@@ -25,12 +25,16 @@ export default eleventyConfig =>
         var l10n = data.site[data.locale].pagination
 
         // Use pagination navigation only when there’s more than one page
-        return `${data.pagination.pages.length > 1
+        // So basically if we take the number bellow: 22222222222
+        // and make it 1 instead, we will enable that way the pagination 
+        // but by making this number huge we're applying basically a hack to turn off the pagination
+        // because it is buggy when using 11ty.js templates unfortunately...
+        return `${data.pagination.pages.length > 22222222222
       ? `<nav aria-label="${l10n.navLabel}">
         <!-- Show option to advance one page toward the beginning,
           when there are more than two total pages and
           when not currently on the first page -->
-        ${data.pagination.pages.length > 2 &&
+        ${data.pagination.pages.length > 10 &&
           data.pagination.href.previous &&
          (data.pagination.href.previous !== data.pagination.first)
           ? `<a href="${data.pagination.href.previous}">
@@ -40,7 +44,7 @@ export default eleventyConfig =>
           : ''}
         <!-- Show option to go first page
           when there are no numbered pages -->
-        ${data.pagination.pages.length < 5
+        ${data.pagination.pages.length < 10
           ? `<a href="${data.pagination.href.first}"
             aria-label="${l10n.firstLabel}"
             ${data.page.url === data.pagination.href.first
@@ -50,7 +54,7 @@ export default eleventyConfig =>
           : ''}
         <!-- Show numbered pages
           when there are at least five -->
-        ${data.pagination.pages.length >= 5
+        ${data.pagination.pages.length >= 100
           ? data.pagination.pages.map((page, index) =>
             `<a href="${data.pagination.hrefs[index]}"
               aria-label="${l10n.pageLabel} ${index + 1}"
@@ -62,7 +66,7 @@ export default eleventyConfig =>
         <!-- Show option to advance one page toward the end,
           when there are more than two total pages and
           when not currently on the last page -->
-        ${data.pagination.pages.length > 2 &&
+        ${data.pagination.pages.length > 10 &&
           data.pagination.href.next &&
          (data.pagination.href.next !== data.pagination.last)
           ? `<a href="${data.pagination.href.next}">

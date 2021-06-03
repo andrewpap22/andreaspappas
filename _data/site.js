@@ -60,9 +60,9 @@ export default {
         // used in _includes/layout/archive.11ty.js
         postsArchive: {
             // Heading for your most recent posts, used on home page
-            headline: '❗ Latest posts',
+            headline: '❗Latest Posts:',
             // Invite the user to visit your archive of posts, used on home page
-            prompt: '… peruse your blog archives 👀',
+            prompt: '… Peruse The Blog Archives 👀',
             // The landing page for your archive of posts
             url: '/blog/'
         },

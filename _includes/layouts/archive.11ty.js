@@ -21,12 +21,21 @@ export var data = {
  * @see {@link https://www.11ty.dev/docs/pagination/ Pagination in 11ty}
  */
 export function render(data) {
+    // using the reversed variable to basically show up to 22222222222 posts per page
+    // basically it's a hack to fix the pagination problem with 11ty.js
+    // So I'm simply turning off the pagination "by using another hack" inside: 
+    // _includes/shortcodes/pagination-nav.js
+    var reversed = [...data.collections.posts.slice(-22222222222)].reverse()
     return `<article>
     <header class="article-header">
       <h2>${data.title}</h2>
     </header>
+
     ${data.content}
-    ${this.archive(data, data.pagination.items)}
+
+    <section style="border:var(--border);padding:var(--base-unit);">
+      ${this.archive(data, reversed)}
+    </section>  
     <footer>
       ${this.paginationNav(data)}
     </footer>
