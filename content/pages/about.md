@@ -1,11 +1,11 @@
 ---
-title: 📖 About 🍦.11ty.js
+title: 📖 About 🍦 this Blog!
 navTitle: 📖 About
 tags: nav
 weight: 2
 ---
 
-What makes 🍦.11ty.js the 🕚 Eleventy starter project of your dreams 💭?
+What makes 🍦 this Blog so appealing 💭?
 
 This project takes a fair amount of inspiration from the [eleventy-base-blog](https://github.com/11ty/eleventy-base-blog/) by [@zachleat](https://twitter.com/zachleat) and the [Hylia starter kit](https://github.com/hankchizljaw/hylia) by [@hankchizljaw](https://twitter.com/hankchizljaw) 🙌 (+ ☝️).
 
@@ -50,3 +50,5 @@ But the only major limit to JavaScript templates is your imagination.
 Now, I mean no disrespect to someone else’s (formerly?) preferred templating languages. Their creators, maintainers, and communities have helped advance web development in significant ways. But none of those creators had Eleventy when they developed those templating languages …
 
 … you do! So why not turn Eleventy up a notch!
+
+Have fun with it! 😎
