@@ -440,22 +440,23 @@ or:
 $ git clone https://github.com/LukeSmithxyz/LARBS.git
 $ cd LARBS/ 
 $ ./larbs.sh
-```
+```  
 
-❗ Enjoyed the article? 
+<div style="border:var(--border);padding:var(--base-unit);">
 
-Consider helping the 👇
+  <p>Enjoyed the article ❓</p>
+  <p>Consider helping the 👇</p>
+  <p>✏️ Author: <a href="https://andrewpap22.github.io/">Andreas Pappas</a></p>
 
-*Author: [Andreas Pappas](https://andrewpap22.github.io/)*
-
-By: 
-
-<div>
+  <p>By getting him a ☕ or a 🥛</p>
+  
   <script type="text/javascript"
     src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button"
     data-slug="anpappas" data-color="#355a50" data-emoji="" data-font="Lato"
     data-text="Buy me a coffee?" data-outline-color="#ffffff" data-font-color="#ffffff"
-    data-coffee-color="#FFDD00"></script>
-</div>
+    data-coffee-color="#FFDD00">
+  </script>
 
-Thank you! 🙏
+  <p>Thank you! 🙏</p>
+
+</div>
