@@ -134,6 +134,8 @@ export function render(data) {
                   data-coffee-color="#FFDD00">
                 </script>
               </div>
+              <p><a class="a2a_dd" href="https://www.addtoany.com/share">Share!</a> 📢</p>
+              <script async src="https://static.addtoany.com/menu/page.js"></script>
             </section>
         
             <script>
@@ -212,6 +214,6 @@ export function render(data) {
           crossorigin="anonymous"
           async>
       </script>
-    </div>  
+    </div> 
   </article>`
 }
