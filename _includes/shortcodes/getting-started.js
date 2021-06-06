@@ -121,14 +121,17 @@ export default function(eleventyConfig) {
               style="border:var(--border);padding:var(--base-unit);">
                 
               <output></output>
-              <div style="margin-top 10px;">
-                <p>If you find this page and it's content usefull you could consider helping it "grow" even more by using the button below! 🔽 <p>
-                 <p> I deeply appreciate everyone's valuable help! 🙏</p>
+              <p>If you find this page and it's content usefull you could consider helping it "grow" even more by using the 👇 button below! <p>
+              <p> <a href="https://andrewpap22.github.io/">I</a> deeply appreciate everyone's valuable help! 🙏</p>
+              <div style="margin-top:11px;display: flex;justify-content: center;align-items: center;">
+                <img src="https://media.giphy.com/media/6JIq2VfeeTTIT42gsx/giphy.gif" alt="a gif gift from my talented brother, made from scratch" height="111" width="111" />
                 <script type="text/javascript"
-                src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button"
-                data-slug="anpappas" data-color="#355a50" data-emoji="" data-font="Lato"
-                data-text="Buy me a coffee?" data-outline-color="#ffffff" data-font-color="#ffffff"
-                data-coffee-color="#FFDD00"></script>
+                  src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button"
+                  data-slug="anpappas" data-color="#355a50" data-emoji="" data-font="Lato"
+                  data-text="Buy me a coffee?" data-outline-color="#ffffff" data-font-color="#ffffff"
+                  data-coffee-color="#FFDD00">
+                </script>
+                <img src="https://media.giphy.com/media/6JIq2VfeeTTIT42gsx/giphy.gif" alt="a gif gift from my talented brother, made from scratch" height="111" width="111" />
               </div>
             </section>
         

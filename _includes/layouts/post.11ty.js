@@ -126,15 +126,16 @@ export function render(data) {
               style="border:var(--border);padding:var(--base-unit);">
                 
               <output></output>
-              <div style="margin-top:11px;">
+              <div style="margin-top:11px;display: flex;justify-content: center;align-items: center;">
+                <img src="https://media.giphy.com/media/6JIq2VfeeTTIT42gsx/giphy.gif" alt="a gif gift from my talented brother, made from scratch" height="111" width="111" />
                 <script type="text/javascript"
                   src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button"
                   data-slug="anpappas" data-color="#355a50" data-emoji="" data-font="Lato"
                   data-text="Buy me a coffee?" data-outline-color="#ffffff" data-font-color="#ffffff"
                   data-coffee-color="#FFDD00">
                 </script>
+                <img src="https://media.giphy.com/media/6JIq2VfeeTTIT42gsx/giphy.gif" alt="a gif gift from my talented brother, made from scratch" height="111" width="111" />
               </div>
-              <p>I, <a href="https://andrewpap22.github.io/">Andreas Pappas,</a> appreciate everyone's valuable help. Thank you! 🙏</p>
             </section>
         
             <script>
