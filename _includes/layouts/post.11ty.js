@@ -207,7 +207,7 @@ export function render(data) {
       <script src="https://utteranc.es/client.js"
           repo="andrewpap22/andreaspappas"
           issue-term="title"
-          label="💬"
+          label="💬 Blog Comment"
           theme="preferred-color-scheme"
           crossorigin="anonymous"
           async>
