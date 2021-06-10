@@ -118,6 +118,8 @@ export function render(data) {
                     border-right-width: 1ch;
                 }
             </style>
+
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.8/clipboard.min.js"></script>
         </head>
         
         <body>
@@ -126,6 +128,10 @@ export function render(data) {
               style="border:var(--border);padding:var(--base-unit);">
                 
               <output></output>
+              <pre style="margin-top:11px;">
+                <p>🐶 <b style="color:black;">DOGE Address:</b> <code id="foo">DR4PD82bMj299EpeY5Wi47Riqwt9qYWDzJ </code> <button class="btn" data-clipboard-target="#foo">📋</button>   <a style="color:black;" href="https://drive.google.com/file/d/1RM9r2qe8C-eE7NyOrbgDvpmAgPdCSl_W/view?usp=sharing"> 🐶 QRCode</a> </p>
+                <p>🪙 <b style="color:black;">Bitcoin Address:</b> <code id="foo">bc1q850djr3usqjrnu33ffv6y29ndrmerr0yp4z9v3 </code> <button class="btn" data-clipboard-target="#foo">📋</button>   <a style="color:black;" href="https://drive.google.com/file/d/117BDF6sNp7X5BY4rHS5FWCyuqkO_wyyv/view?usp=sharing"> 🪙 QRCode</a> </p>  
+              </pre>
               <div style="margin-top:11px;display: flex;justify-content: center;align-items: center;">
                 <script type="text/javascript"
                   src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button"
@@ -197,10 +203,28 @@ export function render(data) {
                     .wait(1500)
                     .then("Then you might consider helping the ✏️ author 👉 <Andreas> </Pappas> 🦁")
                     .then("By getting him a ☕ or a 🥛")
+                    .then("Or even by donating 🪙🪙🪙 crypto if you feel like...")
                     .then("So he can continue to use his spare 🕰️ and contribute 🚧 to open source and try to produce free software 💻 && content!")
+                    .then("Who let the 🐶 out??")
+                    .then("To the 🌕 🚀🚀🚀")
                     .then("🦁 Deeply appreciates everyone's valuable help! 🙏")
                     .wait(500)
                     .then("お時間をいただきありがとうございます! 🦁");
+            </script>
+            <script>
+                var clipboard = new ClipboardJS('.btn');
+
+                clipboard.on('success', function(e) {
+
+                    e.trigger.innerText = "✅"
+                
+                    e.clearSelection();
+                });
+                
+                clipboard.on('error', function(e) {
+                    console.error('Action:', e.action);
+                    console.error('Trigger:', e.trigger);
+                });
             </script>
         </body>
         

@@ -26,5 +26,8 @@
         "esm": "^3.2.25",
         "html-minifier": "^4.0.0",
         "terser": "^5.5.1"
+    },
+    "dependencies": {
+        "clipboard": "^2.0.8"
     }
 }
