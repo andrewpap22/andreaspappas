@@ -130,7 +130,7 @@ export function render(data) {
               <output></output>
               <pre style="margin-top:11px;">
                 <p>🐶 <b style="color:black;">DOGE Address:</b> <code id="foo">DR4PD82bMj299EpeY5Wi47Riqwt9qYWDzJ </code> <button class="btn" data-clipboard-target="#foo">📋</button>   <a style="color:black;" href="https://drive.google.com/file/d/1RM9r2qe8C-eE7NyOrbgDvpmAgPdCSl_W/view?usp=sharing"> 🐶 QRCode</a> </p>
-                <p>🪙 <b style="color:black;">Bitcoin Address:</b> <code id="foo">bc1q850djr3usqjrnu33ffv6y29ndrmerr0yp4z9v3 </code> <button class="btn" data-clipboard-target="#foo">📋</button>   <a style="color:black;" href="https://drive.google.com/file/d/117BDF6sNp7X5BY4rHS5FWCyuqkO_wyyv/view?usp=sharing"> 🪙 QRCode</a> </p>  
+                <p>🪙 <b style="color:black;">Bitcoin Address:</b> <code id="foo2">bc1q850djr3usqjrnu33ffv6y29ndrmerr0yp4z9v3 </code> <button class="btn2" data-clipboard-target="#foo2">📋</button>   <a style="color:black;" href="https://drive.google.com/file/d/117BDF6sNp7X5BY4rHS5FWCyuqkO_wyyv/view?usp=sharing"> 🪙 QRCode</a> </p>  
               </pre>
               <div style="margin-top:11px;display: flex;justify-content: center;align-items: center;">
                 <script type="text/javascript"
@@ -222,6 +222,20 @@ export function render(data) {
                 });
                 
                 clipboard.on('error', function(e) {
+                    console.error('Action:', e.action);
+                    console.error('Trigger:', e.trigger);
+                });
+
+                var clipboard2 = new ClipboardJS('.btn2');
+
+                clipboard2.on('success', function(e) {
+
+                    e.trigger.innerText = "✅"
+                
+                    e.clearSelection();
+                });
+                
+                clipboard2.on('error', function(e) {
                     console.error('Action:', e.action);
                     console.error('Trigger:', e.trigger);
                 });
