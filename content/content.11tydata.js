@@ -1,6 +1,6 @@
 /**
  * @file Contains data common to all content, to reduce repetition
- * @author Reuben L. Lillie <reubenlillie@gmail.com>
+ * @author Andreas Pappas <andrewpap1997@gmail.com>
  */
 
 /**

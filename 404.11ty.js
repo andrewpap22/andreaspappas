@@ -1,6 +1,6 @@
 /**
  * @file Defines the chained template for the 404 page
- * @author Reuben L. Lillie <reubenlillie@gmail.com>
+ * @author Andreas Pappas <andrewpap1997@gmail.com>
  * @see {@link https://www.11ty.dev/docs/layouts/#layout-chaining Layout chaining in 11ty}
  */
 
@@ -10,7 +10,7 @@
  */
 export var data ={
   locale: 'en',
-  title: '🎉 Congratulations! You found the sample 404 page!',
+  title: '🎉 Congratulations! You found the 404 page❗',
   layout: 'layouts/page',
   permalink: '404.html',
   templateEngineOverride: '11ty.js,md',
@@ -28,12 +28,12 @@ export var data ={
 export function render(data) {
   return `Unless you were looking for this page on purpose, well … the other resource you were actually looking for probably can’t be found at the address you requested.
 
-📝 Edit this template to help your visitors find their way back to more meaningful content.
+<img src="https://media.giphy.com/media/g01ZnwAUvutuK8GIQn/giphy.gif" style="width: 100%; max-width: 100%; height: auto;">
 
-### Other options
+### Well you can...
 
 * [😇 Complain to ${data.author.name.givenName} on Twitter](${data.author.social.accounts.find(
   account => account.name === 'Twitter').url})
-* [📥 File an issue in Git](${data.pkg.bugs.url})
-* [🏡 Return to the homepage](${data.pkg.bugs.url})`
+* [📥 File an issue in GitHub](${data.pkg.bugs.url})
+* [🏡 Return to the homepage](${'/'})`
 }

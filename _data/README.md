@@ -4,9 +4,9 @@ In Eleventy, the [data directory](https://www.11ty.dev/docs/config/#directory-fo
 
 _See the Eleventy documentation for more information about the [data cascade](https://www.11ty.dev/docs/data-cascade/)._
 
-This directory shows _one way_ to organize global data into modular files, like a typical blog. The [`site.js`](https://gitlab.com/reubenlillie/eleventy-dot-js-blog/-/blob/master/_data/site.js) file here defines, among other items, a `defaultLocale` property as well as an `en` object which contains strings of text and other options specific to English-language content. You can edit the values for these properties to fit your site.
+This directory shows _one way_ to organize global data into modular files, like a typical blog. The [`site.js`](https://github.com/andrewpap22/andreaspappas/blob/main/_data/site.js) file here defines, among other items, a `defaultLocale` property as well as an `en` object which contains strings of text and other options specific to English-language content. You can edit the values for these properties to fit your site.
 
-To change the main locale for your content, rename the `en` object key to another [ISO language code](https://www.loc.gov/standards/iso639-2/php/code_list.php) **and make the same change to the `locale` property in [`../content/content.11tydata.js`](https://gitlab.com/reubenlillie/eleventy-dot-js-blog/-/blob/master/content/content.11tydata.js).**.
+To change the main locale for your content, rename the `en` object key to another [ISO language code](https://www.loc.gov/standards/iso639-2/php/code_list.php) **and make the same change to the `locale` property in [`../content/content.11tydata.js`](https://github.com/andrewpap22/andreaspappas/blob/main/content/content.11tydata.js).**.
 
 To add support for multiple content languages:
 

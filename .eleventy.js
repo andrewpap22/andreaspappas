@@ -1,6 +1,6 @@
 /**
  * @file Configures preferences for Eleventy
- * @author Reuben L. Lillie <reubenlillie@gmail.com>
+ * @author Andreas Pappas <andrewpap1997@gmail.com>
  * @see {@link https://www.11ty.dev/docs/config/ 11ty Documentation}
  */
 
