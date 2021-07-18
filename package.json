@@ -10,11 +10,11 @@
     },
     "repository": {
         "type": "git",
-        "url": "git://github.com/reubenlillie/eleventy-dot-js-blog.git",
-        "https": "https://gitlab.com/reubenlillie/eleventy-dot-js-blog.git",
-        "editUrl": "https://gitlab.com/reubenlillie/eleventy-dot-js-blog/-/edit/master"
+        "url": "git://github.com/andrewpap22/andreaspappas.git",
+        "https": "https://github.com/andrewpap22/andreaspappas.git",
+        "editUrl": "https://github.com/andrewpap22/andreaspappas/blob/main"
     },
-    "author": "Reuben L. Lillie",
+    "author": "Andreas Pappas",
     "license": "MIT",
     "bugs": {
         "url": "https://github.com/andrewpap22/andreaspappas/issues"
@@ -31,3 +31,5 @@
         "clipboard": "^2.0.8"
     }
 }
+
+

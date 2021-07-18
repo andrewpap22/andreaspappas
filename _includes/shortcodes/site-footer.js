@@ -22,7 +22,7 @@ export default eleventyConfig =>
      */
     eleventyConfig.addShortcode('siteFooter', function(data) {
         return `<footer id="site_footer">
-        <!-- <p>${this.editThisPage(data)}</p> -->
+        <p>${this.editThisPage(data)}</p>
         <p>${this.copyrightNotice(data)}</p>
         <p>${this.colophon(data)}</p>
       </footer>`
