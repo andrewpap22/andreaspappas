@@ -126,12 +126,11 @@ export function render(data) {
 
             <section 
               style="border:var(--border);padding:var(--base-unit);">
-                
+              
+              <!-- Fallout3 Terminal Emulator -->
               <output></output>
-              <pre style="margin-top:11px;">
-                <p>🐶 <b style="color:black;">DOGE Address:</b> <code id="foo">DR4PD82bMj299EpeY5Wi47Riqwt9qYWDzJ </code> <button class="btn" data-clipboard-target="#foo">📋</button>   <a style="color:black;" href="https://drive.google.com/file/d/1RM9r2qe8C-eE7NyOrbgDvpmAgPdCSl_W/view?usp=sharing"> 🐶 QRCode</a> </p>
-                <p>🪙 <b style="color:black;">Bitcoin Address:</b> <code id="foo2">bc1q850djr3usqjrnu33ffv6y29ndrmerr0yp4z9v3 </code> <button class="btn2" data-clipboard-target="#foo2">📋</button>   <a style="color:black;" href="https://drive.google.com/file/d/117BDF6sNp7X5BY4rHS5FWCyuqkO_wyyv/view?usp=sharing"> 🪙 QRCode</a> </p>  
-              </pre>
+
+              <!-- Buy me a coffee button -->
               <div style="margin-top:11px;display: flex;justify-content: center;align-items: center;">
                 <script type="text/javascript"
                   src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button"
@@ -140,8 +139,12 @@ export function render(data) {
                   data-coffee-color="#FFDD00">
                 </script>
               </div>
+
+              <!-- Share Button -->
               <p><a class="a2a_dd" href="https://www.addtoany.com/share">Share!</a> 📢</p>
               <script async src="https://static.addtoany.com/menu/page.js"></script>
+
+
             </section>
         
             <script>
@@ -204,45 +207,23 @@ export function render(data) {
                     .then("Then you might consider helping the ✏️ author 👉 <Andreas> </Pappas> 🦁")
                     .then("By getting him a ☕ or a 🥛")
                     .then("Or even by donating 🪙🪙🪙 crypto if you feel like...")
-                    .then("So he can continue to use his spare 🕰️ and contribute 🚧 to open source and try to produce free software 💻 && content!")
                     .then("Who let the 🐶 out??")
                     .then("To the 🌕 🚀🚀🚀")
+                    .then("------------------------------------------------------------")
+                    .then("🐶 DOGE Address: DR4PD82bMj299EpeY5Wi47Riqwt9qYWDzJ")
+                    .then("🪙 BTC Address: bc1q850djr3usqjrnu33ffv6y29ndrmerr0yp4z9v3")
+                    .then("------------------------------------------------------------")
+                    .then("So he can continue to use his spare 🕰️ and contribute 🚧 to the open source community and try to produce free software 💻 && content 📖")
                     .then("🦁 Deeply appreciates everyone's valuable help! 🙏")
                     .wait(500)
                     .then("お時間をいただきありがとうございます! 🦁");
             </script>
-            <script>
-                var clipboard = new ClipboardJS('.btn');
-
-                clipboard.on('success', function(e) {
-
-                    e.trigger.innerText = "✅"
-                
-                    e.clearSelection();
-                });
-                
-                clipboard.on('error', function(e) {
-                    console.error('Action:', e.action);
-                    console.error('Trigger:', e.trigger);
-                });
-
-                var clipboard2 = new ClipboardJS('.btn2');
-
-                clipboard2.on('success', function(e) {
-
-                    e.trigger.innerText = "✅"
-                
-                    e.clearSelection();
-                });
-                
-                clipboard2.on('error', function(e) {
-                    console.error('Action:', e.action);
-                    console.error('Trigger:', e.trigger);
-                });
-            </script>
         </body>
         
         </html>
+
+    <!-- Blog Comment (On each comment automatically opens an issue on the GitHub repo with the label="💬 Blog Comment" ) -->
+    <!-- NOTE!!! Only works when the repository is PUBLIC!!! -->
     <div style="border:var(--border);padding:var(--base-unit);margin-top:22px;">
       <script src="https://utteranc.es/client.js"
           repo="andrewpap22/andreaspappas"
@@ -252,6 +233,8 @@ export function render(data) {
           crossorigin="anonymous"
           async>
       </script>
-    </div> 
+    </div>
+    
+    
   </article>`
 }
