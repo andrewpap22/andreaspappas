@@ -9,7 +9,7 @@
  * @see {@link https://www.11ty.dev/docs/languages/javascript/#optional-data-method Optional `data` in JavaScript templates in 11ty}
  */
  export var data = {
-    title: 'The \#include \<\> preprocessor statement. 🤯',
+    title: 'The #️⃣include ◀️▶️ preprocessor statement. 🤯',
     date: '2021-07-30',
     permalink: '/blog/CplusplusInclude/',
     templateEngineOverride: '11ty.js,md',
@@ -63,7 +63,7 @@
  int addNumber(int x, int y) 
  {
      return x + y;
-                         /// <--- notice the closing curly brace missing on this line.
+   👈 notice the closing curly brace missing on this line.
  </code></pre>
  
  If we compile the below code we should get an error that we do miss a closing curly brace on line 4. 
