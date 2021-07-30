@@ -3,8 +3,11 @@ title: 💻 Build Artix Linux step by step. 👣
 weight: 1
 tags: unix, artix, arch
 permalink: '/blog/artixLinux/'
+date: '2021-07-22'
 description: Get a better 👅 taste of the UNIX operating systems by building one on your own! 😎
 ---
+
+<img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/6tjhaau67o7bxof2rttl.png" alt="artixDesktop" style="width:100%; height:auto;">
 
 Greetings, in this very first article of mine, I will try to showcase how to install an Arch like Linux distribution, in particular, [Artix Linux](https://artixlinux.org/) aka `The Art Of Linux` from scratch. (i.e. from a base .iso image)
 I will try to explain everything that is non trivial without getting into much depth. For that you can always reference the [Artix wiki](https://wiki.artixlinux.org/). 
@@ -14,8 +17,6 @@ I will try to explain everything that is non trivial without getting into much d
 As this is a minimal Linux installation, I've kept this article minimal as well. (i.e. without any pictures (except the one below ^.-)). The reason for that being is, that you need to dive in, reading carefully what's going on and experiment in your own machine and not simply follow an image slideshow and copy paste some commands. If you fail your very first installation that's totally perfect. Everyone fails! Get your hands dirty and try all over again, fail again and try again. That is exactly how it will stick to your brain and thus you'll gain the knowledge! 
 
 > I will also showcase at the end of this article how to install a bootstrapping script for those who want a *ready to go* graphical environment after a minimal / base Linux installation. 
-
-<img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/6tjhaau67o7bxof2rttl.png" alt="artixDesktop" style="width:100%; height:auto;">
 
 ## And the journey begins... 
 

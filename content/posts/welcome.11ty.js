@@ -1,5 +1,5 @@
 /**
- * @file Defines the chained template for the blog post
+ * @file Defines the chained template for the blog post welcome.11ty.js
  * @author Andreas Pappas <andrewpap1997@gmail.com>
  * @see {@link https://www.11ty.dev/docs/layouts/#layout-chaining Layout chaining in 11ty}
  */
@@ -45,5 +45,23 @@ As liberating is this ideal truly is, the inherently open canvas of the Web can 
 Not all content is actually beneficial or trustworthy. And learning is hard enough when you have a clear set of directions to follow.
 
 This project is designed to give you a solid foundation from which to build a fast, accessible, lightweight, secure, user-friendly, developer-friendly site. As far as possible, 🍦 this Blog aspires to follow current standards and best practices. ✅
+
+
+<!--
+Note to myself: 
+
+How to make responsive iframes: 
+
+<div class="resp-container" style="position: relative;
+ overflow: hidden;
+ padding-top: 56.25%;">
+    <iframe class="resp-iframe" src="https://www.youtube.com/embed/dQw4w9WgXcQ" gesture="media"  allow="encrypted-media" allowfullscreen style="position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;"></iframe>
+ </div>
+-->
 
 `
