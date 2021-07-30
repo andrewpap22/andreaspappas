@@ -9,7 +9,7 @@
  * @see {@link https://www.11ty.dev/docs/languages/javascript/#optional-data-method Optional `data` in JavaScript templates in 11ty}
  */
  export var data = {
-    title: 'The #include <> preprocessor statement. 🤯',
+    title: 'The \#include \<\> preprocessor statement. 🤯',
     date: '2021-07-30',
     permalink: '/blog/CplusplusInclude/',
     templateEngineOverride: '11ty.js,md',
