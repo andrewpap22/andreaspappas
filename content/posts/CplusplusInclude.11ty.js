@@ -26,7 +26,12 @@
  export var render = data =>
  `
 
- <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--Xgf68nfl--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/y15yxxw9spaqdqxyjfot.jpg" alt="artixDesktop" style="width:100%; height:auto;">
+ <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--Xgf68nfl--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/y15yxxw9spaqdqxyjfot.jpg" alt="artixDesktop" style="
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+ ">
 
  Hi there 👋 
 
@@ -34,7 +39,12 @@
  
  > The <code>#include</code> preprocessor statement, all that it does is literally <strong>copy and paste</strong> the contents of the header file specified after the #include <> into our file, on the particular line of our file that we placed that statement. 
  
- <img src="https://media.giphy.com/media/6JB4v4xPTAQFi/giphy.gif" alt="artixDesktop" style="width:100%; height:auto;">
+ <img src="https://media.giphy.com/media/6JB4v4xPTAQFi/giphy.gif" alt="artixDesktop" style="
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+ ">
  
  🙃 Alright then, keep reading and you might do so! 
  
@@ -70,7 +80,8 @@
  
  How can we fix that? 
  
- Either we can simply edit the file and add back our closing curly brace, or we can get a bit crazy and prove our very first statement of the <code>#include</code> preprocessor statement literally copy pasting into our <code>addNumbers.cpp</code> file the content of the header file that is after our include statement. 
+ Either we can simply edit the file and add back our closing curly brace, or we can get a bit crazy 
+ and prove our very first statement of the <code>#include</code> preprocessor statement literally copy pasting into our <code>addNumbers.cpp</code> file the content of the header file that is after our include statement. 
  
  So let's create a header file. 
  
@@ -116,7 +127,12 @@
  
  Well if you go on and open that file you will see the following contents: 
  
- <img src="https://media.giphy.com/media/3orieUe6ejxSFxYCXe/giphy.gif" alt="artixDesktop" style="width:100%; height:auto;">
+ <img src="https://media.giphy.com/media/3orieUe6ejxSFxYCXe/giphy.gif" alt="artixDesktop" style="
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+ ">
 
  <pre><code>
  int addNumber(int x, int y) 
