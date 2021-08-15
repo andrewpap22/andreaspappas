@@ -1,16 +1,41 @@
-# eleventy-dot-js-blog
+# 🦁 Andreas Pappas's Blog
 
-A starter project showing how to build a blog with the [Eleventy](https://11ty.dev/) static site generator using [JavaScript templates (`*.11ty.js`)](https://11ty.dev/languages/javascript/).
+> The following project is my personal 📖 Blog page build with [Eleventy](https://11ty.dev/) static site generator using [JavaScript templates (`*.11ty.js`)](https://11ty.dev/languages/javascript/).
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/cd87e631-aeaa-45fe-9c99-800ef96b53b1/deploy-status)](https://app.netlify.com/sites/eleventy-dot-js-blog/deploys)
+> It was hugelely inspired by the following project of [Reuben L. Lillie](https://gitlab.com/reubenlillie/eleventy-dot-js-blog/-/tree/master) who also took inspiration from [@zachleat](https://github.com/11ty/eleventy-base-blog/), the creator of Eleventy, as well as from [@hankchizljaw](https://github.com/hankchizljaw/hylia). 
 
-## Demo
+[![Netlify Status](https://api.netlify.com/api/v1/badges/33071dfc-5c6d-4963-a927-4a9f7b8cb57a/deploy-status)](https://app.netlify.com/sites/andreaspappas/deploys)
+[![Open Source](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://opensource.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-* [Netlify](https://eleventy-dot-js-blog.netlify.com/)
+## 🚀 Up on
 
-## Summary
+* [andreaspappas.xyz](https://andreaspappas.xyz/)
 
-The [layouts](https://gitlab.com/reubenlillie/eleventy-dot-js-blog/-/tree/master/_includes/layouts) are written entirely in vanilla JavaScript (files with the [`*.11ty.js`](https://www.11ty.dev/docs/languages/javascript/) extension). Eleventy processes those templates and creates prerendered copies of the site HTML.
+## 💬 Summary
+
+The moment I found out about that project I fell in 💘 with it. The minimalistic beautiful style and aesthetics that it provided, as well as the ease of ✏️ writing blog posts by just adding a file (by simply writing your contents with Markdown || HTML || CSS || JavaScript or both of the 4 combined) on a directory and git pushing it made me eager to directly fork it to contribute to it and make my own version out of it as it was MIT licensed. It was the reason that I also made a GitLab account so I could contribute to it! 
+
+So I immediately forked it and started experimenting and playing with it. By doing so I found out that there are lot's of important bugs in the project that had to be fixed in order to use this project as a personal Blog website. An example is that the pagination in the archives Blog page was not working and was throwing you on a 404 page. Another one quite important was on the rendering of the Markdown posts / files, that if you wanted to add an image or a gif in your post it would crash the responsiveness of the rendered HTML page and quite some other ones as well that I found out as I kept playing with it. So I opened an [issue](https://gitlab.com/reubenlillie/eleventy-dot-js-blog/-/issues/62) on the very first one that I've found out, but quite a bit later on I sadly figured out that the project is not maintained anymore by the owner and that it's abandoned thus I was not going to get any help on it. 
+
+But, because I really liked that particular project extremely much, I decided to get it ported onto my GitHub and start spending my free time onto fixing it's issues, adding new features and my 🖌️🎨 on it and eventually make it my own personal Blog page BUT❗ also keep the wonderful idea of Reuben to maintain it as a template / reference project for others to use it as their own Blog || portfolio pages, as the project is hugelyyy documented and it is very easy for anyone to modify it to his liking. 
+
+This README file will serve for that very purpose of detailing all the information && instructions that someone will need to make && modify this blog to make it his own, as well as instructions on how one can deploy and publish the site with **GitHub pages**, **netlify**. I'll also showcase a way to change the default domain of GitHub pages and netlify and add your own custom one. 
+
+> ❗❗ A Blog post on this page can be found for the exact same reason. 👉 [here](https://andreaspappas.xyz/blog/) 
+
+<hr>
+
+> /// NOTE: All the information mentioned above that will be provided are through my own self learning and experience and you have to keep in mind that there are probably lot's of other ways as well (better or not) to achieve the same thing, BUT these are the ones that I personally implemented on this particular project to successfully achieve the desired results. 
+> Any issues, suggestions, contributions are much more than welcome and you know where to head to apply them! 
+
+* Probably 👉 [here?](https://github.com/andrewpap22/andreaspappas/issues) 🙂 
+
+<hr>
+
+> How does this Blog work in a setence 👇
+
+The [layouts](https://github.com/andrewpap22/andreaspappas/tree/main/_includes/layouts) are written entirely in vanilla 🍦 JavaScript (files with the [`*.11ty.js`](https://www.11ty.dev/docs/languages/javascript/) extension). Eleventy processes those templates and creates prerendered copies of the site HTML. Similar behaviour can be found for the [Blog posts](https://github.com/andrewpap22/andreaspappas/tree/main/content/posts).
 
 ## Features
 
@@ -27,7 +52,7 @@ The [layouts](https://gitlab.com/reubenlillie/eleventy-dot-js-blog/-/tree/master
 * 🍬 [Choose](https://gitlab.com/reubenlillie/eleventy-dot-js-blog/-/blob/master/_includes/shortcodes/favicon.js) between emoji favicons and the Real Favicon Generator
 * 💡 Dark/light mode based on user’s system preferences
 * 🔣 Multilingual support (instructions in [`./content/README.md`](https://gitlab.com/reubenlillie/eleventy-dot-js-blog/-/blob/master/content/README.md) and [`./_data/README.md`](https://gitlab.com/reubenlillie/eleventy-dot-js-blog/-/blob/master/_data/README.md))
-* 🔖 Smart pagination
+* 🔖 Single archive page of all Blog posts
 * 🗒️ Extensive inline documentation
 
 ## Project Roadmap
