@@ -85,7 +85,7 @@ Install [Node.js](https://nodejs.org/) on your machine (see [11ty documentation 
 
 Then enter the following commands into your terminal:
 
-### 1. Clone this repository and all its dependencies
+### 1. 👽 Clone this repository and all its dependencies
 
 ```bash
 # via HTTPS
@@ -99,7 +99,7 @@ $ git clone https://github.com/andrewpap22/andreaspappas.git
 $ git clone git@github.com:andrewpap22/andreaspappas.git
 ```
 
-### 2. Go to the working directory
+### 2. 🚶 Go to the working directory
 
 ```bash
 $ cd ./andreaspappas/
@@ -107,7 +107,7 @@ $ cd ./andreaspappas/
 
 Specifically take a look at the file named [`.eleventy.js`](https://github.com/andrewpap22/andreaspappas/blob/main/.eleventy.js) to see if you want to [configure any Eleventy options differently](https://www.11ty.dev/docs/config/).
 
-### 3. Install the project dependencies with [NPM](https://www.npmjs.com/)
+### 3. ⬇️ Install the project dependencies with [NPM](https://www.npmjs.com/)
 
 > prerequisite is that you have installed Node.js (npm comes with node)
 > A pretty good way / guide to get Node.js and npm on your machine is the following 👉 [nvm](https://github.com/nvm-sh/nvm/blob/master/README.md)
@@ -116,7 +116,7 @@ Specifically take a look at the file named [`.eleventy.js`](https://github.com/a
 $ npm install
 ```
 
-### 4. Edit the `.js` files in the [`_data`](https://github.com/andrewpap22/andreaspappas/blob/main/_data/site.js) directory with your site information
+### 4. ✍️ Edit the `.js` files in the [`_data`](https://github.com/andrewpap22/andreaspappas/blob/main/_data/site.js) directory with your site information
 
 ### 5. 🧱 Build & 👟 Run
 
