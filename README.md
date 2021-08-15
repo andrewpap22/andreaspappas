@@ -49,35 +49,37 @@ The [layouts](https://github.com/andrewpap22/andreaspappas/tree/main/_includes/l
   * 🎨 Progressively-enhanced, modular CSS
   * 🍦 Vanilla [JavaScript templates](https://11ty.dev/languages/javascript/)
 * 🎛️ Customizable design and data options
-* 🍬 [Choose](https://gitlab.com/reubenlillie/eleventy-dot-js-blog/-/blob/master/_includes/shortcodes/favicon.js) between emoji favicons and the Real Favicon Generator
-* 💡 Dark/light mode based on user’s system preferences
-* 🔣 Multilingual support (instructions in [`./content/README.md`](https://gitlab.com/reubenlillie/eleventy-dot-js-blog/-/blob/master/content/README.md) and [`./_data/README.md`](https://gitlab.com/reubenlillie/eleventy-dot-js-blog/-/blob/master/_data/README.md))
+* 🍬 [Choose](https://github.com/andrewpap22/andreaspappas/blob/main/_includes/shortcodes/favicon.js) between emoji favicons and the Real Favicon Generator
+* 💡 Dark/light mode based on user’s system & browser preferences
+* 🔣 Multilingual support (instructions in [`./content/README.md`](https://github.com/andrewpap22/andreaspappas/blob/main/content/README.md) and [`./_data/README.md`](https://github.com/andrewpap22/andreaspappas/blob/main/_data/README.md))
 * 🔖 Single archive page of all Blog posts
 * 🗒️ Extensive inline documentation
+* ✏️ Blog comments powerd by [utterances](https://utteranc.es/) comment widget
+* 📢 Social Media Share button per blog post
+* 💸 Auto generated outro / donation message per blog post
+*  ... And many more features to be explored by digging into the project! 😀
 
 ## Project Roadmap
 
-Here’s a list of new features being considered. [Submit a feature request](https://gitlab.com/reubenlillie/eleventy-dot-js-blog/-/issues/new) to add to this list!
+Here’s a list of new features being considered. [Submit a feature request](https://github.com/andrewpap22/andreaspappas/issues/new) to add to this list!
 
-* 🎚️ Dark/light mode toggle #14
-* 🏷️ Tag archives for blog (coming with [Computed Data](https://www.11ty.dev/docs/data-computed/) in Eleventy v0.11.0) #7
-* 🗓 Date archives for blog #16
-* 💌 Contact form (using [Netlify Forms](https://docs.netlify.com/forms/setup/)) #17
-* 📡 [RSS feed](https://www.11ty.dev/docs/plugins/rss/) for blog posts #3
-* 🗺️ Sitemap #54
-* 🔍 [Search](https://www.hawksworx.com/blog/adding-search-to-a-jamstack-site/) #18
-* 📄 Documentation site #19
-* 📣 [Webmentions](https://mxb.dev/blog/using-webmentions-on-static-sites/) #20
-* 💬 [Comments](https://jamstack-comments.netlify.com/) #21
-* 📝 Integrate with [Netlify CMS](https://www.netlifycms.org/) #22
-* ⚙️  Service worker to cache content for offline access #23
-* 🖌️ Apply logo/branding assets #24
-* 🖍️ [Syntax highlighting](https://www.11ty.dev/docs/plugins/syntaxhighlight/) for code blocks #25
-* ✍️  Author information posts (options for mulitple authors and guest submissions) #26
+* 🎚️ Dark/light mode toggle
+* 🏷️ Tag archives for blog (coming with [Computed Data](https://www.11ty.dev/docs/data-computed/) in Eleventy v0.11.0)
+* 🗓 Date archives for blog
+* 💌 Contact form (using [Netlify Forms](https://docs.netlify.com/forms/setup/))
+* 📡 [RSS feed](https://www.11ty.dev/docs/plugins/rss/) for blog posts
+* 🗺️ Sitemap 
+* 🔍 [Search](https://www.hawksworx.com/blog/adding-search-to-a-jamstack-site/) 
+* 📄 Documentation site
+* 📣 [Webmentions](https://mxb.dev/blog/using-webmentions-on-static-sites/)
+* 📝 Integrate with [Netlify CMS](https://www.netlifycms.org/)
+* ⚙️  Service worker to cache content for offline access
+* 🖌️ Apply logo/branding assets
+* 🖍️ [Syntax highlighting](https://www.11ty.dev/docs/plugins/syntaxhighlight/) for code blocks in posts.
 
-## Getting started
+## Getting started 👣
 
-Run a local copy of this site on your computer.
+🚀 Fast way to run a local copy of this project on your computer.
 
 Install [Node.js](https://nodejs.org/) on your machine (see [11ty documentation for version requirements](https://www.11ty.dev/docs/getting-started/)).
 
@@ -85,53 +87,63 @@ Then enter the following commands into your terminal:
 
 ### 1. Clone this repository and all its dependencies
 
-```cli
-git clone git@gitlab.com:reubenlillie/eleventy-dot-js-blog.git my-blog-directory-name
+```bash
+# via HTTPS
+
+$ git clone https://github.com/andrewpap22/andreaspappas.git 
+```
+
+```bash
+# via SSH
+
+$ git clone git@github.com:andrewpap22/andreaspappas.git
 ```
 
 ### 2. Go to the working directory
 
-```cli
-cd my-blog-directory-name
+```bash
+$ cd ./andreaspappas/
 ```
-Specifically take a look at the file named [`.eleventy.js`](https://gitlab.com/reubenlillie/eleventy-dot-js-blog/-/blob/master/.eleventy.js) to see if you want to [configure any Eleventy options differently](https://www.11ty.dev/docs/config/).
+
+Specifically take a look at the file named [`.eleventy.js`](https://github.com/andrewpap22/andreaspappas/blob/main/.eleventy.js) to see if you want to [configure any Eleventy options differently](https://www.11ty.dev/docs/config/).
 
 ### 3. Install the project dependencies with [NPM](https://www.npmjs.com/)
 
-```cli
-npm install
+> prerequisite is that you have installed Node.js (npm comes with node)
+> A pretty good way / guide to get Node.js and npm on your machine is the following 👉 [nvm](https://github.com/nvm-sh/nvm/blob/master/README.md)
+
+```bash
+$ npm install
 ```
 
-### 4. Edit the `.js` files in the [`_data`](https://gitlab.com/reubenlillie/eleventy-dot-js-blog/-/blob/master/_data/site.js) directory with your site information
+### 4. Edit the `.js` files in the [`_data`](https://github.com/andrewpap22/andreaspappas/blob/main/_data/site.js) directory with your site information
 
-### 5. Run Eleventy
+### 5. 🧱 Build & 👟 Run
 
-```cli
-npx eleventy
+Build the project.
+
+```bash
+$ npm run build
 ```
 
-Or build and host locally for local development
+Run and host locally for local development.
 
-```cli
-npx eleventy --serve
+```bash
+$ npm run dev
 ```
 
-Or build automatically when a template changes
+Or run in debug mode
 
-```cli
-npx eleventy --watch
+```bash
+$ npm run debug
 ```
 
-Or in debug mode
+## 🚀 Publish your own copy of the project
 
-```cli
-DEBUG=* npx eleventy
-```
+The command `npm run build` will generate a copy of the site files in a `_site` directory, which you can deploy with any **free** hosting service like [GitHub pages](https://www.freecodecamp.org/news/hosting-custom-domain-on-github-pages-8c598248d2bc/) or [netlify](https://www.netlify.com/blog/2016/10/27/a-step-by-step-guide-deploying-a-static-site-or-single-page-app/)
 
-## Publish your own copy
+You can follow the guides for **GitHub pages** or **netlify** by clicking the respective links above 👆 or simply click the button below 👇 to deploy directly and automatically a copy of this project to your own netlify account!
 
-The command `npm run build` will generate a copy of the site files in a `_site` directory, which you can deploy with any hosting service.
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/andrewpap22/andreaspappas)
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://gitlab.com/reubenlillie/eleventy-dot-js-blog)
-
-&copy; 2020 by [Reuben L. Lillie](https://twitter.com/reubenlillie)
+&copy; 2021 by [\<Andreas\> \<\\A. Pappas\>](https://twitter.com/AndreasPappas22)
