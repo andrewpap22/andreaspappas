@@ -37,9 +37,9 @@ width: 100%;
 _For 🌩️ fast instructions to get up and running with the project follow the 👇 README on the repo_
 
 As mentioned in the <code>[README.md](https://github.com/andrewpap22/andreaspappas/blob/main/README.md)</code> page
-of this repo, this post will serve to provide, detailed information and instructions about making this particular project your own. 
+of this repo, this post will serve to provide, detailed information and instructions about making this particular project your own.
 i.e. modify it as you see fit, (to make it your own personal Blog or Portfolio page), learn which parts you should and shouldn't modify,
-how to run and develop it locally, the prerequisites for doing so, how to deploy it using free hosting services like GitHub pages and netlify, how to 
+how to run and develop it locally, the prerequisites for doing so, how to deploy it using free hosting services like GitHub pages and netlify, how to
 change the default domain name of those services and apply your own custom one and eventually get familiar enough with it so you could contriubute to it,
 by implementing stuff from the <code>[Project Roadmap](https://github.com/andrewpap22/andreaspappas/blob/main/README.md#project-roadmap)</code>, if you feel like it! 😀
 
@@ -56,8 +56,8 @@ But first, _let me take a selfie 🤳_
 
 Ok no.
 
-First of all we need to discuss about _what programs you need to have on your machine_ in order 
-to get this project up and running on a _Local Development Environment_. 
+First of all we need to discuss about _what programs you need to have on your machine_ in order
+to get this project up and running on a _Local Development Environment_.
 
 But what is a _Local Development Environment_?
 
@@ -70,10 +70,10 @@ In other words, you—and whoever else you may want to collaborate with on your 
 
 🦁's Blog uses a program called [Eleventy](https://11ty.dev/) (11ty) to build websites. Eleventy is a type of program known as a _static site generator_, which basically builds a fresh copy of your site everytime you save a change.
 Both 🦁's Blog and Eleventy run on a program called [Node.js](https://nodejs.org/) under the hood. Node.js gives you a local _[JavaScript runtime environement](https://www.codecademy.com/articles/introduction-to-javascript-runtime-environments#:~:text=A%20runtime%20environment%20is%20where,(like%20Chrome%2C%20or%20Firefox))_, which basically means you can use software written in JavaScript on your computer.
-Before programs like Node.js, JavaScript was pretty much confined to the browser. But now, thanks to Eleventy, you can use the same progmramming language to run a server, write your content, generate your site, and interact with users. 
+Before programs like Node.js, JavaScript was pretty much confined to the browser. But now, thanks to Eleventy, you can use the same progmramming language to run a server, write your content, generate your site, and interact with users.
 
 All three programs—Node.js, Eleventy, and 🦁's Blog—are _free and open source software_ (FOSS), meaning the code is publicly avaialble.
-In fact, you’re encouraged to remix your own local copy, create something new and worthwhile with it, and even suggest changes to the original source code. 
+In fact, you’re encouraged to remix your own local copy, create something new and worthwhile with it, and even suggest changes to the original source code.
 
 Before getting to the installation part, first I suggest that you try to get familiar to using the so called 😱 _Terminal_.
 
@@ -86,8 +86,8 @@ Before getting to the installation part, first I suggest that you try to get fam
 
 ### 💻 Accessing Your Terminal
 
-Every operating system (Windows, macOS, Linux, etc.) comes with a text-based command line interface (CLI, console, or terminal) to enter commands you want your computer to run. 
-The CLI is a powerful tool for interacting with your personal workstation beyond the graphical user interface (GUI) with which you may be more familiar. 
+Every operating system (Windows, macOS, Linux, etc.) comes with a text-based command line interface (CLI, console, or terminal) to enter commands you want your computer to run.
+The CLI is a powerful tool for interacting with your personal workstation beyond the graphical user interface (GUI) with which you may be more familiar.
 Of course, if you’ve ever used a computer without a mouse or touchpad, then you might feel right at _127.0.0.1_ in the command line.
 Intead of “pointing and clicking” with a mouse or touchpad 🖱️, you can “talk” to your computer from your keyboard ⌨️.
 Keyboard commands are a really expressive and efficient way to accomplish a lot of tasks that are often outside the reach of the GUI.
@@ -106,18 +106,18 @@ _If you’re on Windows, then I’ll assume you’re able to access the newer Li
 ### ⌨️ Entering Commands
 
 Now that you have an idea of how useful your terminal is and how to access it, you can start learning your way around the command line interface.
-Some of the most important skills to learn involve listing the contents of a folder or “directory” and moving from one directory to another. 
+Some of the most important skills to learn involve listing the contents of a folder or “directory” and moving from one directory to another.
 Many commands depend on the directory in which you happen to be working at the time.
 You can use the <code>ls</code> command to _list_ the files in the current “working directory.”
 Likewise, you can use the <code>cd</code> command the _change_ from one directory to another:
 Typing only <code>cd</code> will change to the top-level directory in your directory tree (often referred to as your _home_ 🏡 directory).
-To go _down_ ⬇️ 📂 from the current directory to one inside it, you can type <code>cd</code> followed by the name of the directory you want to open. 
+To go _down_ ⬇️ 📂 from the current directory to one inside it, you can type <code>cd</code> followed by the name of the directory you want to open.
 For example, <code>cd ./Downloads</code>.
-To go _up_ ⬆️ 📂 from the current directory to another one outside it, you can type <code>cd ../</code>. 
+To go _up_ ⬆️ 📂 from the current directory to another one outside it, you can type <code>cd ../</code>.
 This command will go up one level from the current directory, for example, from <code>Downloads</code> back up to the directory from which you just came.
 You can repeat the sequence <code>../</code> as many times as you need. Say you wanted to go up two levels: you could type <code>cd ../../</code>.
 
-Once you’re comfortable listing a directory’s contents and moving from one directory to another, you have all the basic command line skills you’ll need to start setting up your local development environment 
+Once you’re comfortable listing a directory’s contents and moving from one directory to another, you have all the basic command line skills you’ll need to start setting up your local development environment
 and install all the programs via it that we'll talk from now and on finally 😶.
 
 ### ⬇️ Installing git
@@ -129,22 +129,22 @@ Git is widely used and a very very very strong tool and skill for a Software Eng
 Also you'll need it to get on your machine this very project itself! 🦁
 
 The following 2 guides are the _official_ ones and probably the best that explain simply and clearly how to get git installed,
-based on the operating system that you're using. 
+based on the operating system that you're using.
 
 * 1️⃣ [link](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 * 2️⃣ [link](https://github.com/git-guides/install-git)
 
-#### 📚 Learning git 
+#### 📚 Learning git
 
 The following 👉 [GitHub git guide](https://github.com/git-guides/) is a really good guide to get you started into learning git and how you can combine it with a git online service like [GitHub](https://github.com/).
 
-But, you can also use browser based online [games](https://learngitbranching.js.org/) like the one below 👇 to keep your attention a bit more while diving into the more advanced parts of it. 
+But, you can also use browser based online [games](https://learngitbranching.js.org/) like the one below 👇 to keep your attention a bit more while diving into the more advanced parts of it.
 
 <div style="
     overflow: hidden;
     padding-top: 56.25%;
     position: relative;">
-        <iframe src="https://learngitbranching.js.org/" allow="fullscreen" 
+        <iframe src="https://learngitbranching.js.org/" allow="fullscreen"
         style="
         position: absolute;
         top: 0;
@@ -159,7 +159,7 @@ Or you can fork it as well and then git clone it from your own fork.
 
 The procedure to do so would like like this 👇 (but I'm sure at this point you already knew how to do it, it's just an excuse to use [asciinema](https://github.com/asciinema/asciinema)).
 
-<img src="https://s6.gifyu.com/images/gitclone_blog.gif" alt="clone blog instructions gif" style="
+<img src="https://media.giphy.com/media/n4ARs8hjUj2x91YHmr/giphy.gif" alt="clone blog instructions gif" style="
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -176,8 +176,8 @@ This again depends on the operating system that you're using but you can follow 
 
 At this point I will provide some instructions that I personally know works best to get the latest stable version of Node.js and npm on Linux operating systems (whichever distribution you might be using).
 
-> **/// NOTE❗** 
-> The following instructions might look a bit advanced or complicated but they're not. Read 'em and follow carefully and you should be good to go. 
+> **/// NOTE❗**
+> The following instructions might look a bit advanced or complicated but they're not. Read 'em and follow carefully and you should be good to go.
 
 ### ℹ️ About
 nvm is a version manager for [node.js](https://nodejs.org/en/), designed to be installed per-user, and invoked per-shell. \`nvm\` works on any POSIX-compliant shell (sh, dash, ksh, zsh, bash), in particular on these platforms: unix, macOS, and windows WSL.
@@ -191,7 +191,7 @@ To **install** or **update** nvm, you should run the [install script]
 
 > $ wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
 
-Running either of the above commands downloads a script and runs it. The script clones the nvm repository to \`~/.nvm\`, 
+Running either of the above commands downloads a script and runs it. The script clones the nvm repository to \`~/.nvm\`,
 and attempts to add the source lines from the snippet below to the correct profile file (\`~/.bash_profile\`, \`~/.zshrc\`, \`~/.profile\`, or \`~/.bashrc\`).
 
 > ### ❗ The following is **ONE** command, copy paste it as a whole.
@@ -202,7 +202,7 @@ and attempts to add the source lines from the snippet below to the correct profi
 
 * If the environment variable \`$XDG_CONFIG_HOME\` is present, it will place the \`nvm\` files there.</sub>
 
-* You can add \`--no-use\` to the end of the above script (...\`nvm.sh --no-use\`) to postpone using \`nvm\` 
+* You can add \`--no-use\` to the end of the above script (...\`nvm.sh --no-use\`) to postpone using \`nvm\`
 until you manually \`use\` it.
 
 * You can customize the install source, directory, profile, and version using the \`NVM_SOURCE\`, \`NVM_DIR\`, \`PROFILE\`, and \`NODE_VERSION\` variables.
@@ -212,8 +212,8 @@ Eg: \`curl ... | NVM_DIR="path/to/nvm"\`. Ensure that the \`NVM_DIR\` does not c
 
 #### 🧰 Troubleshooting on Linux
 
-On Linux, after running the install script, if you get \`nvm: command not found\` 
-or see no feedback from your terminal after you type \`command -v nvm\`, simply close your current terminal, 
+On Linux, after running the install script, if you get \`nvm: command not found\`
+or see no feedback from your terminal after you type \`command -v nvm\`, simply close your current terminal,
 open a new terminal, and try verifying again.
 Alternatively, you can run run the following commands for the different shells on the command line:
 
@@ -231,7 +231,7 @@ To verify that nvm has been installed, do:
 
 > $ command -v nvm
 
-which should output \`nvm\` if the installation was successful. Please note that \`which nvm\` will not work, since \`nvm\` 
+which should output \`nvm\` if the installation was successful. Please note that \`which nvm\` will not work, since \`nvm\`
 is a sourced shell function, not an executable binary.
 
 ## ⬇️ Installing node with nvm
@@ -240,34 +240,34 @@ To get the latest LTS version of node and migrate your existing installed packag
 
 > $ nvm install 'lts/*' --reinstall-packages-from=current
 
-Then you should have the latest and stable version of nodejs on your system 
-as long as the npm package manager that comes with it. 
+Then you should have the latest and stable version of nodejs on your system
+as long as the npm package manager that comes with it.
 
-### ✅ Verify installations: 
+### ✅ Verify installations:
 
 > $ node -v
 
 > $ npm -v
 
-<hr> 
+<hr>
 
-At this point we have node on our system. It's finally time to get our project running locally. 
+At this point we have node on our system. It's finally time to get our project running locally.
 
-Get into the project's directory (as showcased in the previous gif above after cloning) and then: 
+Get into the project's directory (as showcased in the previous gif above after cloning) and then:
 
 ## ⬇️ Install the project dependencies with npm
 
-> $ npm install 
+> $ npm install
 
 ## 🏃 Run the project locally and head to the browser to view it
 
-> $ npm run dev 
+> $ npm run dev
 
-Open your browser and type in the address bar: 
+Open your browser and type in the address bar:
 
 > http://localhost:8080/
 
-Here's a video demonstrating the above instructions: 
+Here's a video demonstrating the above instructions:
 
 
 <div style="width: 650px; margin: auto;">
@@ -279,52 +279,52 @@ Here's a video demonstrating the above instructions:
 
 <hr>
 
-So, we managed to install all the dependencies, learn about git, GitHub and version control and a bunch more stuff, 
-as well as run the project on our machines, in our Local Development Environment. 
+So, we managed to install all the dependencies, learn about git, GitHub and version control and a bunch more stuff,
+as well as run the project on our machines, in our Local Development Environment.
 
-What are the next steps 👣 to take you might ask? 
+What are the next steps 👣 to take you might ask?
 
-Well, the first thing to do is to get your hands dirty and dive into the project itself, experimenting and playing with it. 
-As the project is written entirely with 🍦 JavaScript, you might want to learn some of it, if not already familiar with it, 
-so you can swim 🏊 a little easier into the code itself. As mentioned before the project itself is hugelyy documented, 
+Well, the first thing to do is to get your hands dirty and dive into the project itself, experimenting and playing with it.
+As the project is written entirely with 🍦 JavaScript, you might want to learn some of it, if not already familiar with it,
+so you can swim 🏊 a little easier into the code itself. As mentioned before the project itself is hugelyy documented,
 either on the GitHub repository (inside every repository you should find a seperate README.md file explaining what's important to know),
-as well as the code itself contains inline documentation! 
+as well as the code itself contains inline documentation!
 
 So with knowing some basics of the JavaScript programming language, reading the available documentation and playing / experimenting with the code itself
-you should be good to go! 
+you should be good to go!
 
-> **/// NOTE ❗** On my following 👉 [GitHub Repository](https://github.com/andrewpap22/DearJavaScript) 
+> **/// NOTE ❗** On my following 👉 [GitHub Repository](https://github.com/andrewpap22/DearJavaScript)
 > you should find the basics of the JavaScript programming language, written in a tutorial-like form
-> which should get you able while reading it, to get more familiar with it and learn it. 
+> which should get you able while reading it, to get more familiar with it and learn it.
 > Currently it is written in a fast pased style and it's not hugely detailed, but I do plan making it a free e-book
 > for the very purpose of learning the JavaScript programming language and diving deep into it as possible
 > So, stay tuned 📻 for it!
 
-Now, as this blog post has already become huge, I want to mention fast 2 last things that you might want to do with the project. 
+Now, as this blog post has already become huge, I want to mention fast 2 last things that you might want to do with the project.
 
-First you might want to customize it a bit and make it more personal. 
-You'll have to get your hands dirty as mentioned to be able to do that, but as a fast reference you can try the following: 
+First you might want to customize it a bit and make it more personal.
+You'll have to get your hands dirty as mentioned to be able to do that, but as a fast reference you can try the following:
 
 * 📝 Edit <code>./_data/site.json</code> with your site’s information.<br>
-Don’t be scared. You can change just about any text inside single quotes without breaking anything (<code>'Safe to edit'</code>). 
+Don’t be scared. You can change just about any text inside single quotes without breaking anything (<code>'Safe to edit'</code>).
 If you get stuck, please file an [issue on GitHub](${data.pkg.bugs.url}) where someone friendly can help.
 * (Optionally) 📝 Edit <code>.eleventy.js</code> with your configuration preferences.
 * ❌ Delete the contents inside the quotes after the return statement in the [/shortcdes/getting-started.js](https://github.com/andrewpap22/andreaspappas/blob/main/_includes/shortcodes/getting-started.js) file.
 * Basically this is the terminal that you see on the home page. If you want to keep it but put your own information instead go down on the file and edit the text inside the <code>.then()</code> methods.
-* Else, you can delete it completely and write markdown inside the backticks of the return statement or do write whatever HTML, CSS, JavaScript you want, as I've already done. 
+* Else, you can delete it completely and write markdown inside the backticks of the return statement or do write whatever HTML, CSS, JavaScript you want, as I've already done.
 
-In <code>./content/pages</code> and <code>./content/posts/</code>, you can edit or delete any of the files ending with the <code>.11ty.js</code> or <code>.md</code> extensions. 
+In <code>./content/pages</code> and <code>./content/posts/</code>, you can edit or delete any of the files ending with the <code>.11ty.js</code> or <code>.md</code> extensions.
 To create a new page or post, I recommend copying and pasting one of these files to a new one until you get the hang of it.
 
 To preview your changes in the browser you'll have to do run the project as we did above. (see the terminal video) 👆
 
-> Simply run: 
+> Simply run:
 > $ npm run dev
 > And head to **http://localhost:8080/** in your browser
 
 For publishing your own copy of the project as well as using your own custom domain name,
-I'll write detailed instructions on a separate blog post and reference it here when it's done, 
-as this already got huge enough. 
+I'll write detailed instructions on a separate blog post and reference it here when it's done,
+as this already got huge enough.
 
 For a fast reference you can have a look 👉 [here](https://github.com/andrewpap22/andreaspappas#-publish-your-own-copy-of-the-project)
 
@@ -336,9 +336,9 @@ Or use the following button 👇 which will create a fork of the repository on y
 
 /**
  * <!--
-Note to myself: 
+Note to myself:
 
-How to make responsive iframes: 
+How to make responsive iframes:
 
 <div class="resp-container" style="position: relative;
  overflow: hidden;
