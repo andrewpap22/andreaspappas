@@ -481,9 +481,8 @@ export function render(data) {
             Header area with the title of the book on the left, and the
             author of said book on the right.
             <em
-                >Erin is aware that content within the header of the same page
-                as a chapter title does not appear, but she made an
-                exception</em
+                >Suspendisse ullamcorper in orci sed ultrices. Duis fringilla
+                sapien sit amet ex porta interdum.</em
             >.
             </li>
             <li>An adorned chapter title</li>

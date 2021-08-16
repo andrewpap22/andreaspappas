@@ -10,7 +10,7 @@
 
 ## 🚀 Up on
 
-* [andreaspappas.xyz](https://andreaspappas.xyz/)
+* [andreaspappas.xyz](https://andreaspappas.xyz/) 
 
 ## 💬 Summary
 
