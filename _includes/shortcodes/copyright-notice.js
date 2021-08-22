@@ -25,5 +25,6 @@ export default eleventyConfig =>
       <span id="copyright_holder">${data.copyright.holder}.</span>
       <span id="copyright_license">
         <a href="${data.copyright.url}"><abbr title="${data.copyright.license.abbr}: ${data.copyright.license.name}">${data.copyright.license.abbr}</abbr></a>.
-      </span>`
+      </span><br><br>
+      <a href="https://andreaspappas.xyz/"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fandreaspappas.xyz&count_bg=%233DC88E&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=%F0%9F%8E%AF+Hits&edge_flat=false"/></a>`
     )
