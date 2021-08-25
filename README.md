@@ -7,6 +7,8 @@
  > The following project is my personal 📖 Blog page build with [Eleventy](https://11ty.dev/) static site generator using [JavaScript templates (`*.11ty.js`)](https://11ty.dev/languages/javascript/).
 
  > It was hugelely inspired by the following project of [Reuben L. Lillie](https://gitlab.com/reubenlillie/eleventy-dot-js-blog/-/tree/master) who also took inspiration from [@zachleat](https://github.com/11ty/eleventy-base-blog/), the creator of Eleventy, as well as from [@hankchizljaw](https://github.com/hankchizljaw/hylia). 
+ 
+ [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fandrewpap22%2Fandreaspappas&count_bg=%2360BA1C&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=%F0%9F%8E%AF+Hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
  [![Netlify Status](https://api.netlify.com/api/v1/badges/33071dfc-5c6d-4963-a927-4a9f7b8cb57a/deploy-status)](https://app.netlify.com/sites/andreaspappas/deploys)
  ![Repository Size](https://img.shields.io/github/repo-size/andrewpap22/andreaspappas)
