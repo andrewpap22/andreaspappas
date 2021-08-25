@@ -1,8 +1,8 @@
 # 🦁 Andreas Pappas's Blog
 
 <div align="center">
-
- ![Twitter URL](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2Fandrewpap22%2Fandreaspappas)
+ 
+ [![Twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2Fandrewpap22%2Fandreaspappas%2F)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2Fandrewpap22%2Fandreaspappas%2F)
 
  > The following project is my personal 📖 Blog page build with [Eleventy](https://11ty.dev/) static site generator using [JavaScript templates (`*.11ty.js`)](https://11ty.dev/languages/javascript/).
 
