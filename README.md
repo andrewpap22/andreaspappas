@@ -1,16 +1,26 @@
 # 🦁 Andreas Pappas's Blog
 
-> The following project is my personal 📖 Blog page build with [Eleventy](https://11ty.dev/) static site generator using [JavaScript templates (`*.11ty.js`)](https://11ty.dev/languages/javascript/).
+<div align="center">
 
-> It was hugelely inspired by the following project of [Reuben L. Lillie](https://gitlab.com/reubenlillie/eleventy-dot-js-blog/-/tree/master) who also took inspiration from [@zachleat](https://github.com/11ty/eleventy-base-blog/), the creator of Eleventy, as well as from [@hankchizljaw](https://github.com/hankchizljaw/hylia). 
+ ![Twitter URL](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2Fandrewpap22%2Fandreaspappas)
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/33071dfc-5c6d-4963-a927-4a9f7b8cb57a/deploy-status)](https://app.netlify.com/sites/andreaspappas/deploys)
-[![Open Source](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://opensource.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+ > The following project is my personal 📖 Blog page build with [Eleventy](https://11ty.dev/) static site generator using [JavaScript templates (`*.11ty.js`)](https://11ty.dev/languages/javascript/).
+
+ > It was hugelely inspired by the following project of [Reuben L. Lillie](https://gitlab.com/reubenlillie/eleventy-dot-js-blog/-/tree/master) who also took inspiration from [@zachleat](https://github.com/11ty/eleventy-base-blog/), the creator of Eleventy, as well as from [@hankchizljaw](https://github.com/hankchizljaw/hylia). 
+
+ [![Netlify Status](https://api.netlify.com/api/v1/badges/33071dfc-5c6d-4963-a927-4a9f7b8cb57a/deploy-status)](https://app.netlify.com/sites/andreaspappas/deploys)
+ ![Repository Size](https://img.shields.io/github/repo-size/andrewpap22/andreaspappas)
+ ![Last Commit](https://img.shields.io/github/last-commit/andrewpap22/andreaspappas)
+ ![Open Issues](https://img.shields.io/github/issues/andrewpap22/andreaspappas?color=important)
+ ![Open Pull Requests](https://img.shields.io/github/issues-pr/andrewpap22/andreaspappas?color=yellowgreen)
+ [![Open Source](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://opensource.org/)
+ [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+ 
+</div>
 
 ## 🚀 Up on
 
-* [andreaspappas.xyz](https://andreaspappas.xyz/) 
+* 🌐 [andreaspappas.xyz](https://andreaspappas.xyz/) 
 
 ## 💬 Summary
 
@@ -145,5 +155,11 @@ The command `npm run build` will generate a copy of the site files in a `_site` 
 You can follow the guides for **GitHub pages** or **netlify** by clicking the respective links above 👆 or simply click the button below 👇 to deploy directly and automatically a copy of this project to your own netlify account!
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/andrewpap22/andreaspappas)
+
+## 🤝 Support
+
+Give a ⭐️ if you like this project!
+
+<a href="https://www.buymeacoffee.com/anpappas" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-green.png" alt="Buy Me A Coffee"  style="margin-bottom: 5px;" width="150"></a>
 
 &copy; 2021 by [\<Andreas\> \<\\A. Pappas\>](https://twitter.com/AndreasPappas22)
